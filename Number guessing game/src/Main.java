@@ -10,7 +10,6 @@ public class Main {
     public static void GuessingNumberGame() {
         int numberOfTriesLeft = 5;
         int randomNumber = 1 + (int) (100 * Math.random());
-        System.out.println(randomNumber);
         System.out.println("Number will be from 1 to 100");
 
         for (int i = 0; i < numberOfTriesLeft; i++) {
