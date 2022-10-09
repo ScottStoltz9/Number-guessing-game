@@ -28,6 +28,7 @@ public class Main {
             }
             else {
                 System.out.println("Ran out of tries");
+                System.out.println("The number was " + randomNumber);
                 System.out.println("Do you want to try again?");
                 System.out.println("Y/N");
                 String answer = scanner.next();
