@@ -36,6 +36,7 @@ public class Main {
                     GuessingNumberGame();
                 }
                 else {
+                    System.out.println("Thank you for playing");
                     break;
                 }
             }
